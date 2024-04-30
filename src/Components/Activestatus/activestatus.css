@@ -1,0 +1,18 @@
+.status_head{
+    width: 310px;
+    height:150px; 
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.cardheader{
+   font-size: 10px;
+}
+
+.canvas_part{
+    margin-top: 10px;
+}
+
+
+

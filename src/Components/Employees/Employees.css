@@ -1,0 +1,81 @@
+.Number-head{
+    background: white;
+    border-radius:5px;
+}
+.number-text{
+    line-height: 11px;
+    font-size: 12px;
+    width: auto;
+    height: 5px;
+    color: black;
+}
+.title_employe{
+    font-size: 10px;
+    font-weight: 600;
+    color:#0e3422; 
+    padding-top:3px;
+}
+.number_740{
+    text-align: right;
+    font-weight: bold;
+    font-size:15px;
+    color: #0e3422;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:3px;
+}
+progress{
+    font-size: xx-small;
+    margin-top:10px;
+}
+.height-20{
+    height: 25px;
+}
+.no-of-employee-graph{
+    height: 120px;
+}
+.no-of-employees-progress-container{
+    height: 20px;
+}
+
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:1200px) {
+    .title_employe{
+        font-size: 7px;
+    }
+}
+ 
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width: 767px) {
+.card {
+    width: 95%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+}
+
+.title_employe {
+    font-size: 10px; /* Adjust as needed */
+}
+
+.number_740 {
+    font-size: 12px; /* Adjust as needed */
+}
+
+
+.progress{
+    width: 80%; /* Adjust as needed */
+
+}
+.progress span {
+    font-size: 8px; /* Adjust as needed */
+}
+.Number-head{
+    margin-left: 10px;
+    width:95% 
+
+}
+.no-of-employees-doughnutchart{
+    width:80px
+}
+.no-of-employee-graph{
+    height: 100px;
+}
+}
